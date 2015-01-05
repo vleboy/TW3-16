@@ -1,0 +1,169 @@
+Dependencies for Project 'Tw3-16', Target 'Vhe-Main': (DO NOT MODIFY !)
+F (.\LibM051Series\CMSIS\CM0\CoreSupport\core_cm0.c)(0x543F6D14)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork -I.\LibM051Series -I.\LibM051Series\CMSIS\CM0\CoreSupport -I.\LibM051Series\CMSIS\CM0\DeviceSupport\Nuvoton\M051Series\startup\arm -I.\UserCode\inc -I.\UserCode\src -I.\LibM051Series\CMSIS\CM0\DeviceSupport\Nuvoton -I.\LibM051Series\CMSIS\CM0\DeviceSupport\Nuvoton\M051Series -I.\LibM051Series\StdDriver\inc -I.\UserCode-I "D:\Program Files (x86)\Keil\ARM\RV31\INC"-I "D:\Program Files (x86)\Keil\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS\Include"-Dvhe02 -o .\core_cm0.o --omf_browse .\core_cm0.crf --depend .\core_cm0.d)
+I (D:\Program Files (x86)\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+F (.\LibM051Series\CMSIS\CM0\DeviceSupport\Nuvoton\M051Series\system_M051Series.c)(0x543F6D13)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork -I.\LibM051Series -I.\LibM051Series\CMSIS\CM0\CoreSupport -I.\LibM051Series\CMSIS\CM0\DeviceSupport\Nuvoton\M051Series\startup\arm -I.\UserCode\inc -I.\UserCode\src -I.\LibM051Series\CMSIS\CM0\DeviceSupport\Nuvoton -I.\LibM051Series\CMSIS\CM0\DeviceSupport\Nuvoton\M051Series -I.\LibM051Series\StdDriver\inc -I.\UserCode-I "D:\Program Files (x86)\Keil\ARM\RV31\INC"-I "D:\Program Files (x86)\Keil\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS\Include"-Dvhe02 -o .\system_m051series.o --omf_browse .\system_m051series.crf --depend .\system_m051series.d)
+I (D:\Program Files (x86)\Keil\ARM\ARMCC\include\stdio.h)(0x51C7B744)
+I (D:\Program Files (x86)\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (E:\ÐéÄâ·ÖÇ°¶Ë\TW3-16\ÐéÄâ°æ\LibM051Series\CMSIS\CM0\DeviceSupport\Nuvoton\M051Series\M051Series.h)(0x543F6D13)
+I (E:\ÐéÄâ·ÖÇ°¶Ë\TW3-16\ÐéÄâ°æ\LibM051Series\CMSIS\CM0\CoreSupport\core_cm0.h)(0x543F6D14)
+I (E:\ÐéÄâ·ÖÇ°¶Ë\TW3-16\ÐéÄâ°æ\LibM051Series\CMSIS\CM0\DeviceSupport\Nuvoton\M051Series\system_M051Series.h)(0x543F6D13)
+I (E:\ÐéÄâ·ÖÇ°¶Ë\TW3-16\ÐéÄâ°æ\LibM051Series\StdDriver\inc\SYS.h)(0x543F6D11)
+I (E:\ÐéÄâ·ÖÇ°¶Ë\TW3-16\ÐéÄâ°æ\LibM051Series\StdDriver\inc\ADC.h)(0x543F6D12)
+I (E:\ÐéÄâ·ÖÇ°¶Ë\TW3-16\ÐéÄâ°æ\LibM051Series\StdDriver\inc\EBI.h)(0x543F6D12)
+I (E:\ÐéÄâ·ÖÇ°¶Ë\TW3-16\ÐéÄâ°æ\LibM051Series\StdDriver\inc\FMC.h)(0x543F6D12)
+I (E:\ÐéÄâ·ÖÇ°¶Ë\TW3-16\ÐéÄâ°æ\LibM051Series\StdDriver\inc\GPIO.h)(0x543F6D12)
+I (E:\ÐéÄâ·ÖÇ°¶Ë\TW3-16\ÐéÄâ°æ\LibM051Series\StdDriver\inc\I2C.h)(0x543F6D12)
+I (E:\ÐéÄâ·ÖÇ°¶Ë\TW3-16\ÐéÄâ°æ\LibM051Series\StdDriver\inc\PWM.h)(0x543F6D12)
+I (E:\ÐéÄâ·ÖÇ°¶Ë\TW3-16\ÐéÄâ°æ\LibM051Series\StdDriver\inc\SPI.h)(0x543F6D12)
+I (E:\ÐéÄâ·ÖÇ°¶Ë\TW3-16\ÐéÄâ°æ\LibM051Series\StdDriver\inc\TIMER.h)(0x543F6D11)
+I (E:\ÐéÄâ·ÖÇ°¶Ë\TW3-16\ÐéÄâ°æ\LibM051Series\StdDriver\inc\UART.h)(0x543F6D11)
+F (.\startup_M051Series.s)(0x531862BC)(--cpu Cortex-M0 -g --apcs=interwork -I "D:\Program Files (x86)\Keil\ARM\RV31\INC"-I "D:\Program Files (x86)\Keil\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS\Include"--list .\startup_m051series.lst --xref -o .\startup_m051series.o --depend .\startup_m051series.d)
+F (.\LibM051Series\StdDriver\src\retarget.c)(0x543F6D11)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork -I.\LibM051Series -I.\LibM051Series\CMSIS\CM0\CoreSupport -I.\LibM051Series\CMSIS\CM0\DeviceSupport\Nuvoton\M051Series\startup\arm -I.\UserCode\inc -I.\UserCode\src -I.\LibM051Series\CMSIS\CM0\DeviceSupport\Nuvoton -I.\LibM051Series\CMSIS\CM0\DeviceSupport\Nuvoton\M051Series -I.\LibM051Series\StdDriver\inc -I.\UserCode-I "D:\Program Files (x86)\Keil\ARM\RV31\INC"-I "D:\Program Files (x86)\Keil\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS\Include"-Dvhe02 -o .\retarget.o --omf_browse .\retarget.crf --depend .\retarget.d)
+I (D:\Program Files (x86)\Keil\ARM\ARMCC\include\stdio.h)(0x51C7B744)
+I (E:\ÐéÄâ·ÖÇ°¶Ë\TW3-16\ÐéÄâ°æ\LibM051Series\CMSIS\CM0\DeviceSupport\Nuvoton\M051Series\M051Series.h)(0x543F6D13)
+I (E:\ÐéÄâ·ÖÇ°¶Ë\TW3-16\ÐéÄâ°æ\LibM051Series\CMSIS\CM0\CoreSupport\core_cm0.h)(0x543F6D14)
+I (D:\Program Files (x86)\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (E:\ÐéÄâ·ÖÇ°¶Ë\TW3-16\ÐéÄâ°æ\LibM051Series\CMSIS\CM0\DeviceSupport\Nuvoton\M051Series\system_M051Series.h)(0x543F6D13)
+I (E:\ÐéÄâ·ÖÇ°¶Ë\TW3-16\ÐéÄâ°æ\LibM051Series\StdDriver\inc\SYS.h)(0x543F6D11)
+I (E:\ÐéÄâ·ÖÇ°¶Ë\TW3-16\ÐéÄâ°æ\LibM051Series\StdDriver\inc\ADC.h)(0x543F6D12)
+I (E:\ÐéÄâ·ÖÇ°¶Ë\TW3-16\ÐéÄâ°æ\LibM051Series\StdDriver\inc\EBI.h)(0x543F6D12)
+I (E:\ÐéÄâ·ÖÇ°¶Ë\TW3-16\ÐéÄâ°æ\LibM051Series\StdDriver\inc\FMC.h)(0x543F6D12)
+I (E:\ÐéÄâ·ÖÇ°¶Ë\TW3-16\ÐéÄâ°æ\LibM051Series\StdDriver\inc\GPIO.h)(0x543F6D12)
+I (E:\ÐéÄâ·ÖÇ°¶Ë\TW3-16\ÐéÄâ°æ\LibM051Series\StdDriver\inc\I2C.h)(0x543F6D12)
+I (E:\ÐéÄâ·ÖÇ°¶Ë\TW3-16\ÐéÄâ°æ\LibM051Series\StdDriver\inc\PWM.h)(0x543F6D12)
+I (E:\ÐéÄâ·ÖÇ°¶Ë\TW3-16\ÐéÄâ°æ\LibM051Series\StdDriver\inc\SPI.h)(0x543F6D12)
+I (E:\ÐéÄâ·ÖÇ°¶Ë\TW3-16\ÐéÄâ°æ\LibM051Series\StdDriver\inc\TIMER.h)(0x543F6D11)
+I (E:\ÐéÄâ·ÖÇ°¶Ë\TW3-16\ÐéÄâ°æ\LibM051Series\StdDriver\inc\UART.h)(0x543F6D11)
+F (.\UserCode\main.c)(0x547BE1E3)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork -I.\LibM051Series -I.\LibM051Series\CMSIS\CM0\CoreSupport -I.\LibM051Series\CMSIS\CM0\DeviceSupport\Nuvoton\M051Series\startup\arm -I.\UserCode\inc -I.\UserCode\src -I.\LibM051Series\CMSIS\CM0\DeviceSupport\Nuvoton -I.\LibM051Series\CMSIS\CM0\DeviceSupport\Nuvoton\M051Series -I.\LibM051Series\StdDriver\inc -I.\UserCode-I "D:\Program Files (x86)\Keil\ARM\RV31\INC"-I "D:\Program Files (x86)\Keil\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS\Include"-Dvhe02 -o .\main.o --omf_browse .\main.crf --depend .\main.d)
+I (E:\ÐéÄâ·ÖÇ°¶Ë\TW3-16\ÐéÄâ°æ\UserCode\inc\all.h)(0x547893BF)
+I (D:\Program Files (x86)\Keil\ARM\ARMCC\include\stdio.h)(0x51C7B744)
+I (E:\ÐéÄâ·ÖÇ°¶Ë\TW3-16\ÐéÄâ°æ\UserCode\initialization.h)(0x543F6D80)
+I (E:\ÐéÄâ·ÖÇ°¶Ë\TW3-16\ÐéÄâ°æ\LibM051Series\CMSIS\CM0\DeviceSupport\Nuvoton\M051Series\M051Series.h)(0x543F6D13)
+I (E:\ÐéÄâ·ÖÇ°¶Ë\TW3-16\ÐéÄâ°æ\LibM051Series\CMSIS\CM0\CoreSupport\core_cm0.h)(0x543F6D14)
+I (D:\Program Files (x86)\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (E:\ÐéÄâ·ÖÇ°¶Ë\TW3-16\ÐéÄâ°æ\LibM051Series\CMSIS\CM0\DeviceSupport\Nuvoton\M051Series\system_M051Series.h)(0x543F6D13)
+I (E:\ÐéÄâ·ÖÇ°¶Ë\TW3-16\ÐéÄâ°æ\LibM051Series\StdDriver\inc\SYS.h)(0x543F6D11)
+I (E:\ÐéÄâ·ÖÇ°¶Ë\TW3-16\ÐéÄâ°æ\LibM051Series\StdDriver\inc\ADC.h)(0x543F6D12)
+I (E:\ÐéÄâ·ÖÇ°¶Ë\TW3-16\ÐéÄâ°æ\LibM051Series\StdDriver\inc\EBI.h)(0x543F6D12)
+I (E:\ÐéÄâ·ÖÇ°¶Ë\TW3-16\ÐéÄâ°æ\LibM051Series\StdDriver\inc\FMC.h)(0x543F6D12)
+I (E:\ÐéÄâ·ÖÇ°¶Ë\TW3-16\ÐéÄâ°æ\LibM051Series\StdDriver\inc\GPIO.h)(0x543F6D12)
+I (E:\ÐéÄâ·ÖÇ°¶Ë\TW3-16\ÐéÄâ°æ\LibM051Series\StdDriver\inc\I2C.h)(0x543F6D12)
+I (E:\ÐéÄâ·ÖÇ°¶Ë\TW3-16\ÐéÄâ°æ\LibM051Series\StdDriver\inc\PWM.h)(0x543F6D12)
+I (E:\ÐéÄâ·ÖÇ°¶Ë\TW3-16\ÐéÄâ°æ\LibM051Series\StdDriver\inc\SPI.h)(0x543F6D12)
+I (E:\ÐéÄâ·ÖÇ°¶Ë\TW3-16\ÐéÄâ°æ\LibM051Series\StdDriver\inc\TIMER.h)(0x543F6D11)
+I (E:\ÐéÄâ·ÖÇ°¶Ë\TW3-16\ÐéÄâ°æ\LibM051Series\StdDriver\inc\UART.h)(0x543F6D11)
+I (D:\Program Files (x86)\Keil\ARM\ARMCC\include\string.h)(0x51C7B744)
+F (.\UserCode\src\UserSYSCLK.c)(0x543F6E0E)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork -I.\LibM051Series -I.\LibM051Series\CMSIS\CM0\CoreSupport -I.\LibM051Series\CMSIS\CM0\DeviceSupport\Nuvoton\M051Series\startup\arm -I.\UserCode\inc -I.\UserCode\src -I.\LibM051Series\CMSIS\CM0\DeviceSupport\Nuvoton -I.\LibM051Series\CMSIS\CM0\DeviceSupport\Nuvoton\M051Series -I.\LibM051Series\StdDriver\inc -I.\UserCode-I "D:\Program Files (x86)\Keil\ARM\RV31\INC"-I "D:\Program Files (x86)\Keil\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS\Include"-Dvhe02 -o .\usersysclk.o --omf_browse .\usersysclk.crf --depend .\usersysclk.d)
+I (E:\ÐéÄâ·ÖÇ°¶Ë\TW3-16\ÐéÄâ°æ\UserCode\inc\all.h)(0x547893BF)
+I (D:\Program Files (x86)\Keil\ARM\ARMCC\include\stdio.h)(0x51C7B744)
+I (E:\ÐéÄâ·ÖÇ°¶Ë\TW3-16\ÐéÄâ°æ\UserCode\initialization.h)(0x543F6D80)
+I (E:\ÐéÄâ·ÖÇ°¶Ë\TW3-16\ÐéÄâ°æ\LibM051Series\CMSIS\CM0\DeviceSupport\Nuvoton\M051Series\M051Series.h)(0x543F6D13)
+I (E:\ÐéÄâ·ÖÇ°¶Ë\TW3-16\ÐéÄâ°æ\LibM051Series\CMSIS\CM0\CoreSupport\core_cm0.h)(0x543F6D14)
+I (D:\Program Files (x86)\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (E:\ÐéÄâ·ÖÇ°¶Ë\TW3-16\ÐéÄâ°æ\LibM051Series\CMSIS\CM0\DeviceSupport\Nuvoton\M051Series\system_M051Series.h)(0x543F6D13)
+I (E:\ÐéÄâ·ÖÇ°¶Ë\TW3-16\ÐéÄâ°æ\LibM051Series\StdDriver\inc\SYS.h)(0x543F6D11)
+I (E:\ÐéÄâ·ÖÇ°¶Ë\TW3-16\ÐéÄâ°æ\LibM051Series\StdDriver\inc\ADC.h)(0x543F6D12)
+I (E:\ÐéÄâ·ÖÇ°¶Ë\TW3-16\ÐéÄâ°æ\LibM051Series\StdDriver\inc\EBI.h)(0x543F6D12)
+I (E:\ÐéÄâ·ÖÇ°¶Ë\TW3-16\ÐéÄâ°æ\LibM051Series\StdDriver\inc\FMC.h)(0x543F6D12)
+I (E:\ÐéÄâ·ÖÇ°¶Ë\TW3-16\ÐéÄâ°æ\LibM051Series\StdDriver\inc\GPIO.h)(0x543F6D12)
+I (E:\ÐéÄâ·ÖÇ°¶Ë\TW3-16\ÐéÄâ°æ\LibM051Series\StdDriver\inc\I2C.h)(0x543F6D12)
+I (E:\ÐéÄâ·ÖÇ°¶Ë\TW3-16\ÐéÄâ°æ\LibM051Series\StdDriver\inc\PWM.h)(0x543F6D12)
+I (E:\ÐéÄâ·ÖÇ°¶Ë\TW3-16\ÐéÄâ°æ\LibM051Series\StdDriver\inc\SPI.h)(0x543F6D12)
+I (E:\ÐéÄâ·ÖÇ°¶Ë\TW3-16\ÐéÄâ°æ\LibM051Series\StdDriver\inc\TIMER.h)(0x543F6D11)
+I (E:\ÐéÄâ·ÖÇ°¶Ë\TW3-16\ÐéÄâ°æ\LibM051Series\StdDriver\inc\UART.h)(0x543F6D11)
+I (D:\Program Files (x86)\Keil\ARM\ARMCC\include\string.h)(0x51C7B744)
+F (.\UserCode\src\UserUart1.c)(0x547C1479)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork -I.\LibM051Series -I.\LibM051Series\CMSIS\CM0\CoreSupport -I.\LibM051Series\CMSIS\CM0\DeviceSupport\Nuvoton\M051Series\startup\arm -I.\UserCode\inc -I.\UserCode\src -I.\LibM051Series\CMSIS\CM0\DeviceSupport\Nuvoton -I.\LibM051Series\CMSIS\CM0\DeviceSupport\Nuvoton\M051Series -I.\LibM051Series\StdDriver\inc -I.\UserCode-I "D:\Program Files (x86)\Keil\ARM\RV31\INC"-I "D:\Program Files (x86)\Keil\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS\Include"-Dvhe02 -o .\useruart1.o --omf_browse .\useruart1.crf --depend .\useruart1.d)
+I (E:\ÐéÄâ·ÖÇ°¶Ë\TW3-16\ÐéÄâ°æ\UserCode\inc\all.h)(0x547893BF)
+I (D:\Program Files (x86)\Keil\ARM\ARMCC\include\stdio.h)(0x51C7B744)
+I (E:\ÐéÄâ·ÖÇ°¶Ë\TW3-16\ÐéÄâ°æ\UserCode\initialization.h)(0x543F6D80)
+I (E:\ÐéÄâ·ÖÇ°¶Ë\TW3-16\ÐéÄâ°æ\LibM051Series\CMSIS\CM0\DeviceSupport\Nuvoton\M051Series\M051Series.h)(0x543F6D13)
+I (E:\ÐéÄâ·ÖÇ°¶Ë\TW3-16\ÐéÄâ°æ\LibM051Series\CMSIS\CM0\CoreSupport\core_cm0.h)(0x543F6D14)
+I (D:\Program Files (x86)\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (E:\ÐéÄâ·ÖÇ°¶Ë\TW3-16\ÐéÄâ°æ\LibM051Series\CMSIS\CM0\DeviceSupport\Nuvoton\M051Series\system_M051Series.h)(0x543F6D13)
+I (E:\ÐéÄâ·ÖÇ°¶Ë\TW3-16\ÐéÄâ°æ\LibM051Series\StdDriver\inc\SYS.h)(0x543F6D11)
+I (E:\ÐéÄâ·ÖÇ°¶Ë\TW3-16\ÐéÄâ°æ\LibM051Series\StdDriver\inc\ADC.h)(0x543F6D12)
+I (E:\ÐéÄâ·ÖÇ°¶Ë\TW3-16\ÐéÄâ°æ\LibM051Series\StdDriver\inc\EBI.h)(0x543F6D12)
+I (E:\ÐéÄâ·ÖÇ°¶Ë\TW3-16\ÐéÄâ°æ\LibM051Series\StdDriver\inc\FMC.h)(0x543F6D12)
+I (E:\ÐéÄâ·ÖÇ°¶Ë\TW3-16\ÐéÄâ°æ\LibM051Series\StdDriver\inc\GPIO.h)(0x543F6D12)
+I (E:\ÐéÄâ·ÖÇ°¶Ë\TW3-16\ÐéÄâ°æ\LibM051Series\StdDriver\inc\I2C.h)(0x543F6D12)
+I (E:\ÐéÄâ·ÖÇ°¶Ë\TW3-16\ÐéÄâ°æ\LibM051Series\StdDriver\inc\PWM.h)(0x543F6D12)
+I (E:\ÐéÄâ·ÖÇ°¶Ë\TW3-16\ÐéÄâ°æ\LibM051Series\StdDriver\inc\SPI.h)(0x543F6D12)
+I (E:\ÐéÄâ·ÖÇ°¶Ë\TW3-16\ÐéÄâ°æ\LibM051Series\StdDriver\inc\TIMER.h)(0x543F6D11)
+I (E:\ÐéÄâ·ÖÇ°¶Ë\TW3-16\ÐéÄâ°æ\LibM051Series\StdDriver\inc\UART.h)(0x543F6D11)
+I (D:\Program Files (x86)\Keil\ARM\ARMCC\include\string.h)(0x51C7B744)
+F (.\UserCode\src\UserTASK.c)(0x543F6E3F)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork -I.\LibM051Series -I.\LibM051Series\CMSIS\CM0\CoreSupport -I.\LibM051Series\CMSIS\CM0\DeviceSupport\Nuvoton\M051Series\startup\arm -I.\UserCode\inc -I.\UserCode\src -I.\LibM051Series\CMSIS\CM0\DeviceSupport\Nuvoton -I.\LibM051Series\CMSIS\CM0\DeviceSupport\Nuvoton\M051Series -I.\LibM051Series\StdDriver\inc -I.\UserCode-I "D:\Program Files (x86)\Keil\ARM\RV31\INC"-I "D:\Program Files (x86)\Keil\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS\Include"-Dvhe02 -o .\usertask.o --omf_browse .\usertask.crf --depend .\usertask.d)
+I (E:\ÐéÄâ·ÖÇ°¶Ë\TW3-16\ÐéÄâ°æ\UserCode\inc\all.h)(0x547893BF)
+I (D:\Program Files (x86)\Keil\ARM\ARMCC\include\stdio.h)(0x51C7B744)
+I (E:\ÐéÄâ·ÖÇ°¶Ë\TW3-16\ÐéÄâ°æ\UserCode\initialization.h)(0x543F6D80)
+I (E:\ÐéÄâ·ÖÇ°¶Ë\TW3-16\ÐéÄâ°æ\LibM051Series\CMSIS\CM0\DeviceSupport\Nuvoton\M051Series\M051Series.h)(0x543F6D13)
+I (E:\ÐéÄâ·ÖÇ°¶Ë\TW3-16\ÐéÄâ°æ\LibM051Series\CMSIS\CM0\CoreSupport\core_cm0.h)(0x543F6D14)
+I (D:\Program Files (x86)\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (E:\ÐéÄâ·ÖÇ°¶Ë\TW3-16\ÐéÄâ°æ\LibM051Series\CMSIS\CM0\DeviceSupport\Nuvoton\M051Series\system_M051Series.h)(0x543F6D13)
+I (E:\ÐéÄâ·ÖÇ°¶Ë\TW3-16\ÐéÄâ°æ\LibM051Series\StdDriver\inc\SYS.h)(0x543F6D11)
+I (E:\ÐéÄâ·ÖÇ°¶Ë\TW3-16\ÐéÄâ°æ\LibM051Series\StdDriver\inc\ADC.h)(0x543F6D12)
+I (E:\ÐéÄâ·ÖÇ°¶Ë\TW3-16\ÐéÄâ°æ\LibM051Series\StdDriver\inc\EBI.h)(0x543F6D12)
+I (E:\ÐéÄâ·ÖÇ°¶Ë\TW3-16\ÐéÄâ°æ\LibM051Series\StdDriver\inc\FMC.h)(0x543F6D12)
+I (E:\ÐéÄâ·ÖÇ°¶Ë\TW3-16\ÐéÄâ°æ\LibM051Series\StdDriver\inc\GPIO.h)(0x543F6D12)
+I (E:\ÐéÄâ·ÖÇ°¶Ë\TW3-16\ÐéÄâ°æ\LibM051Series\StdDriver\inc\I2C.h)(0x543F6D12)
+I (E:\ÐéÄâ·ÖÇ°¶Ë\TW3-16\ÐéÄâ°æ\LibM051Series\StdDriver\inc\PWM.h)(0x543F6D12)
+I (E:\ÐéÄâ·ÖÇ°¶Ë\TW3-16\ÐéÄâ°æ\LibM051Series\StdDriver\inc\SPI.h)(0x543F6D12)
+I (E:\ÐéÄâ·ÖÇ°¶Ë\TW3-16\ÐéÄâ°æ\LibM051Series\StdDriver\inc\TIMER.h)(0x543F6D11)
+I (E:\ÐéÄâ·ÖÇ°¶Ë\TW3-16\ÐéÄâ°æ\LibM051Series\StdDriver\inc\UART.h)(0x543F6D11)
+I (D:\Program Files (x86)\Keil\ARM\ARMCC\include\string.h)(0x51C7B744)
+F (.\UserCode\src\UserTime0.c)(0x5487DF5D)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork -I.\LibM051Series -I.\LibM051Series\CMSIS\CM0\CoreSupport -I.\LibM051Series\CMSIS\CM0\DeviceSupport\Nuvoton\M051Series\startup\arm -I.\UserCode\inc -I.\UserCode\src -I.\LibM051Series\CMSIS\CM0\DeviceSupport\Nuvoton -I.\LibM051Series\CMSIS\CM0\DeviceSupport\Nuvoton\M051Series -I.\LibM051Series\StdDriver\inc -I.\UserCode-I "D:\Program Files (x86)\Keil\ARM\RV31\INC"-I "D:\Program Files (x86)\Keil\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS\Include"-Dvhe02 -o .\usertime0.o --omf_browse .\usertime0.crf --depend .\usertime0.d)
+I (E:\ÐéÄâ·ÖÇ°¶Ë\TW3-16\ÐéÄâ°æ\UserCode\inc\all.h)(0x547893BF)
+I (D:\Program Files (x86)\Keil\ARM\ARMCC\include\stdio.h)(0x51C7B744)
+I (E:\ÐéÄâ·ÖÇ°¶Ë\TW3-16\ÐéÄâ°æ\UserCode\initialization.h)(0x543F6D80)
+I (E:\ÐéÄâ·ÖÇ°¶Ë\TW3-16\ÐéÄâ°æ\LibM051Series\CMSIS\CM0\DeviceSupport\Nuvoton\M051Series\M051Series.h)(0x543F6D13)
+I (E:\ÐéÄâ·ÖÇ°¶Ë\TW3-16\ÐéÄâ°æ\LibM051Series\CMSIS\CM0\CoreSupport\core_cm0.h)(0x543F6D14)
+I (D:\Program Files (x86)\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (E:\ÐéÄâ·ÖÇ°¶Ë\TW3-16\ÐéÄâ°æ\LibM051Series\CMSIS\CM0\DeviceSupport\Nuvoton\M051Series\system_M051Series.h)(0x543F6D13)
+I (E:\ÐéÄâ·ÖÇ°¶Ë\TW3-16\ÐéÄâ°æ\LibM051Series\StdDriver\inc\SYS.h)(0x543F6D11)
+I (E:\ÐéÄâ·ÖÇ°¶Ë\TW3-16\ÐéÄâ°æ\LibM051Series\StdDriver\inc\ADC.h)(0x543F6D12)
+I (E:\ÐéÄâ·ÖÇ°¶Ë\TW3-16\ÐéÄâ°æ\LibM051Series\StdDriver\inc\EBI.h)(0x543F6D12)
+I (E:\ÐéÄâ·ÖÇ°¶Ë\TW3-16\ÐéÄâ°æ\LibM051Series\StdDriver\inc\FMC.h)(0x543F6D12)
+I (E:\ÐéÄâ·ÖÇ°¶Ë\TW3-16\ÐéÄâ°æ\LibM051Series\StdDriver\inc\GPIO.h)(0x543F6D12)
+I (E:\ÐéÄâ·ÖÇ°¶Ë\TW3-16\ÐéÄâ°æ\LibM051Series\StdDriver\inc\I2C.h)(0x543F6D12)
+I (E:\ÐéÄâ·ÖÇ°¶Ë\TW3-16\ÐéÄâ°æ\LibM051Series\StdDriver\inc\PWM.h)(0x543F6D12)
+I (E:\ÐéÄâ·ÖÇ°¶Ë\TW3-16\ÐéÄâ°æ\LibM051Series\StdDriver\inc\SPI.h)(0x543F6D12)
+I (E:\ÐéÄâ·ÖÇ°¶Ë\TW3-16\ÐéÄâ°æ\LibM051Series\StdDriver\inc\TIMER.h)(0x543F6D11)
+I (E:\ÐéÄâ·ÖÇ°¶Ë\TW3-16\ÐéÄâ°æ\LibM051Series\StdDriver\inc\UART.h)(0x543F6D11)
+I (D:\Program Files (x86)\Keil\ARM\ARMCC\include\string.h)(0x51C7B744)
+F (.\UserCode\src\UserADC.c)(0x5472ECAE)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork -I.\LibM051Series -I.\LibM051Series\CMSIS\CM0\CoreSupport -I.\LibM051Series\CMSIS\CM0\DeviceSupport\Nuvoton\M051Series\startup\arm -I.\UserCode\inc -I.\UserCode\src -I.\LibM051Series\CMSIS\CM0\DeviceSupport\Nuvoton -I.\LibM051Series\CMSIS\CM0\DeviceSupport\Nuvoton\M051Series -I.\LibM051Series\StdDriver\inc -I.\UserCode-I "D:\Program Files (x86)\Keil\ARM\RV31\INC"-I "D:\Program Files (x86)\Keil\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS\Include"-Dvhe02 -o .\useradc.o --omf_browse .\useradc.crf --depend .\useradc.d)
+I (E:\ÐéÄâ·ÖÇ°¶Ë\TW3-16\ÐéÄâ°æ\UserCode\inc\all.h)(0x547893BF)
+I (D:\Program Files (x86)\Keil\ARM\ARMCC\include\stdio.h)(0x51C7B744)
+I (E:\ÐéÄâ·ÖÇ°¶Ë\TW3-16\ÐéÄâ°æ\UserCode\initialization.h)(0x543F6D80)
+I (E:\ÐéÄâ·ÖÇ°¶Ë\TW3-16\ÐéÄâ°æ\LibM051Series\CMSIS\CM0\DeviceSupport\Nuvoton\M051Series\M051Series.h)(0x543F6D13)
+I (E:\ÐéÄâ·ÖÇ°¶Ë\TW3-16\ÐéÄâ°æ\LibM051Series\CMSIS\CM0\CoreSupport\core_cm0.h)(0x543F6D14)
+I (D:\Program Files (x86)\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (E:\ÐéÄâ·ÖÇ°¶Ë\TW3-16\ÐéÄâ°æ\LibM051Series\CMSIS\CM0\DeviceSupport\Nuvoton\M051Series\system_M051Series.h)(0x543F6D13)
+I (E:\ÐéÄâ·ÖÇ°¶Ë\TW3-16\ÐéÄâ°æ\LibM051Series\StdDriver\inc\SYS.h)(0x543F6D11)
+I (E:\ÐéÄâ·ÖÇ°¶Ë\TW3-16\ÐéÄâ°æ\LibM051Series\StdDriver\inc\ADC.h)(0x543F6D12)
+I (E:\ÐéÄâ·ÖÇ°¶Ë\TW3-16\ÐéÄâ°æ\LibM051Series\StdDriver\inc\EBI.h)(0x543F6D12)
+I (E:\ÐéÄâ·ÖÇ°¶Ë\TW3-16\ÐéÄâ°æ\LibM051Series\StdDriver\inc\FMC.h)(0x543F6D12)
+I (E:\ÐéÄâ·ÖÇ°¶Ë\TW3-16\ÐéÄâ°æ\LibM051Series\StdDriver\inc\GPIO.h)(0x543F6D12)
+I (E:\ÐéÄâ·ÖÇ°¶Ë\TW3-16\ÐéÄâ°æ\LibM051Series\StdDriver\inc\I2C.h)(0x543F6D12)
+I (E:\ÐéÄâ·ÖÇ°¶Ë\TW3-16\ÐéÄâ°æ\LibM051Series\StdDriver\inc\PWM.h)(0x543F6D12)
+I (E:\ÐéÄâ·ÖÇ°¶Ë\TW3-16\ÐéÄâ°æ\LibM051Series\StdDriver\inc\SPI.h)(0x543F6D12)
+I (E:\ÐéÄâ·ÖÇ°¶Ë\TW3-16\ÐéÄâ°æ\LibM051Series\StdDriver\inc\TIMER.h)(0x543F6D11)
+I (E:\ÐéÄâ·ÖÇ°¶Ë\TW3-16\ÐéÄâ°æ\LibM051Series\StdDriver\inc\UART.h)(0x543F6D11)
+I (D:\Program Files (x86)\Keil\ARM\ARMCC\include\string.h)(0x51C7B744)
+F (.\UserCode\src\UserFlash.c)(0x548A501A)(-c --cpu Cortex-M0 -g -O0 --apcs=interwork -I.\LibM051Series -I.\LibM051Series\CMSIS\CM0\CoreSupport -I.\LibM051Series\CMSIS\CM0\DeviceSupport\Nuvoton\M051Series\startup\arm -I.\UserCode\inc -I.\UserCode\src -I.\LibM051Series\CMSIS\CM0\DeviceSupport\Nuvoton -I.\LibM051Series\CMSIS\CM0\DeviceSupport\Nuvoton\M051Series -I.\LibM051Series\StdDriver\inc -I.\UserCode-I "D:\Program Files (x86)\Keil\ARM\RV31\INC"-I "D:\Program Files (x86)\Keil\ARM\PACK\ARM\CMSIS\3.20.3\CMSIS\Include"-Dvhe02 -o .\userflash.o --omf_browse .\userflash.crf --depend .\userflash.d)
+I (E:\ÐéÄâ·ÖÇ°¶Ë\TW3-16\ÐéÄâ°æ\UserCode\inc\all.h)(0x547893BF)
+I (D:\Program Files (x86)\Keil\ARM\ARMCC\include\stdio.h)(0x51C7B744)
+I (E:\ÐéÄâ·ÖÇ°¶Ë\TW3-16\ÐéÄâ°æ\UserCode\initialization.h)(0x543F6D80)
+I (E:\ÐéÄâ·ÖÇ°¶Ë\TW3-16\ÐéÄâ°æ\LibM051Series\CMSIS\CM0\DeviceSupport\Nuvoton\M051Series\M051Series.h)(0x543F6D13)
+I (E:\ÐéÄâ·ÖÇ°¶Ë\TW3-16\ÐéÄâ°æ\LibM051Series\CMSIS\CM0\CoreSupport\core_cm0.h)(0x543F6D14)
+I (D:\Program Files (x86)\Keil\ARM\ARMCC\include\stdint.h)(0x51C7B744)
+I (E:\ÐéÄâ·ÖÇ°¶Ë\TW3-16\ÐéÄâ°æ\LibM051Series\CMSIS\CM0\DeviceSupport\Nuvoton\M051Series\system_M051Series.h)(0x543F6D13)
+I (E:\ÐéÄâ·ÖÇ°¶Ë\TW3-16\ÐéÄâ°æ\LibM051Series\StdDriver\inc\SYS.h)(0x543F6D11)
+I (E:\ÐéÄâ·ÖÇ°¶Ë\TW3-16\ÐéÄâ°æ\LibM051Series\StdDriver\inc\ADC.h)(0x543F6D12)
+I (E:\ÐéÄâ·ÖÇ°¶Ë\TW3-16\ÐéÄâ°æ\LibM051Series\StdDriver\inc\EBI.h)(0x543F6D12)
+I (E:\ÐéÄâ·ÖÇ°¶Ë\TW3-16\ÐéÄâ°æ\LibM051Series\StdDriver\inc\FMC.h)(0x543F6D12)
+I (E:\ÐéÄâ·ÖÇ°¶Ë\TW3-16\ÐéÄâ°æ\LibM051Series\StdDriver\inc\GPIO.h)(0x543F6D12)
+I (E:\ÐéÄâ·ÖÇ°¶Ë\TW3-16\ÐéÄâ°æ\LibM051Series\StdDriver\inc\I2C.h)(0x543F6D12)
+I (E:\ÐéÄâ·ÖÇ°¶Ë\TW3-16\ÐéÄâ°æ\LibM051Series\StdDriver\inc\PWM.h)(0x543F6D12)
+I (E:\ÐéÄâ·ÖÇ°¶Ë\TW3-16\ÐéÄâ°æ\LibM051Series\StdDriver\inc\SPI.h)(0x543F6D12)
+I (E:\ÐéÄâ·ÖÇ°¶Ë\TW3-16\ÐéÄâ°æ\LibM051Series\StdDriver\inc\TIMER.h)(0x543F6D11)
+I (E:\ÐéÄâ·ÖÇ°¶Ë\TW3-16\ÐéÄâ°æ\LibM051Series\StdDriver\inc\UART.h)(0x543F6D11)
+I (D:\Program Files (x86)\Keil\ARM\ARMCC\include\string.h)(0x51C7B744)
