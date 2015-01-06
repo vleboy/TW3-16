@@ -1,0 +1,33 @@
+.\flash.o: USER\flash.c
+.\flash.o: USER\all.h
+.\flash.o: .\LIB\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h
+.\flash.o: .\LIB\CMSIS\CM3\CoreSupport\core_cm3.h
+.\flash.o: D:\Program Files (x86)\Keil\ARM\ARMCC\bin\..\include\stdint.h
+.\flash.o: .\LIB\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h
+.\flash.o: .\USER\stm32f10x_conf.h
+.\flash.o: .\LIB\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h
+.\flash.o: .\LIB\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h
+.\flash.o: .\LIB\STM32F10x_StdPeriph_Driver\inc\stm32f10x_bkp.h
+.\flash.o: .\LIB\STM32F10x_StdPeriph_Driver\inc\stm32f10x_can.h
+.\flash.o: .\LIB\STM32F10x_StdPeriph_Driver\inc\stm32f10x_cec.h
+.\flash.o: .\LIB\STM32F10x_StdPeriph_Driver\inc\stm32f10x_crc.h
+.\flash.o: .\LIB\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dac.h
+.\flash.o: .\LIB\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dbgmcu.h
+.\flash.o: .\LIB\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h
+.\flash.o: .\LIB\STM32F10x_StdPeriph_Driver\inc\stm32f10x_exti.h
+.\flash.o: .\LIB\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h
+.\flash.o: .\LIB\STM32F10x_StdPeriph_Driver\inc\stm32f10x_fsmc.h
+.\flash.o: .\LIB\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h
+.\flash.o: .\LIB\STM32F10x_StdPeriph_Driver\inc\stm32f10x_i2c.h
+.\flash.o: .\LIB\STM32F10x_StdPeriph_Driver\inc\stm32f10x_iwdg.h
+.\flash.o: .\LIB\STM32F10x_StdPeriph_Driver\inc\stm32f10x_pwr.h
+.\flash.o: .\LIB\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h
+.\flash.o: .\LIB\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rtc.h
+.\flash.o: .\LIB\STM32F10x_StdPeriph_Driver\inc\stm32f10x_sdio.h
+.\flash.o: .\LIB\STM32F10x_StdPeriph_Driver\inc\stm32f10x_spi.h
+.\flash.o: .\LIB\STM32F10x_StdPeriph_Driver\inc\stm32f10x_tim.h
+.\flash.o: .\LIB\STM32F10x_StdPeriph_Driver\inc\stm32f10x_usart.h
+.\flash.o: .\LIB\STM32F10x_StdPeriph_Driver\inc\stm32f10x_wwdg.h
+.\flash.o: .\LIB\STM32F10x_StdPeriph_Driver\inc\misc.h
+.\flash.o: D:\Program Files (x86)\Keil\ARM\ARMCC\bin\..\include\stdio.h
+.\flash.o: USER\adc.h
