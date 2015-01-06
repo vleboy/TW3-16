@@ -5,11 +5,54 @@ void ADC_INIT_CON(void);
 void alignmentADC(void);
 void ADC_GPIO_CON(void);
 static DMA_InitTypeDef DMA_InitStructure; 
-unsigned short ModulenumTable[10]={0x00F7,0x01EF,0x02E7,0x03DF,0X04D8,0X05D0,0X06C8,0X07C0,0X08B9,0X09B1};    //0.2V ~ 2.0V
+
 static ADC_InitTypeDef ADC_InitStructure;
-u16 ADC_ConvertedValue[40]={0};
-u16 temp[4]={0};
-unsigned char MediafilterID = 0;				    //插槽ID，全局 作为通讯地址
+//unsigned short ModulenumTable[10]={0x00F7,0x01EF,0x02E7,0x03DF,0X04D8,0X05D0,0X06C8,0X07C0,0X08B9,0X09B1};    //0.2V ~ 2.0V
+//u16 ADC_ConvertedValue[40]={0};
+//u16 temp[4]={0};
+//unsigned char MediafilterID = 0;				    //插槽ID，全局 作为通讯地址
+
+u32 ADCvalue[10][4];/*AIN0 接收机光功率1
+													AIN1 激光器电流A
+													AIN2 发射机光功率A
+													AIN3 接收机光功率2
+													AIN4 +5V
+													AIN5 +24V
+													AIN6 AC60V
+													AIN7 RF_POW 
+													8:	 激光器电流B
+													9:   发射机光功率B*/
+u32 ADCcovVal[10];
+/*-----------------------------------------------------------------*/
+/* 初始化ADC                                                       */
+/*-----------------------------------------------------------------*/
+void ADC_Init(void)
+{
+	ADC_GPIO_CON();
+	ADC_DMA_CON();
+	ADC_INIT_CON();
+	alignmentADC();
+	
+	while(2012)
+	{
+		Delayms(50);
+				temp[0]= Sample_Modulenum();
+				Delayms(50);
+				temp[1]= Sample_Modulenum();
+				Delayms(50);
+				temp[2]=Sample_Modulenum();
+				Delayms(50);
+				temp[3]= Sample_Modulenum();
+				Delayms(50);
+				if((temp[0] == temp[1]) && (temp[0] == temp[2]) && (temp[0] == temp[3]) && (temp[0] != 0))
+				{
+				
+					MediafilterID = temp[0];
+					break;
+				}
+	}
+	
+}
 u16 ADC_RUN(unsigned char ch)
 {
 	u16 temp1[4];
@@ -79,33 +122,7 @@ unsigned char Sample_Modulenum(void)
 		}
 		return 0;
 	}
-void ADC_INIT(void)
-{
-	ADC_GPIO_CON();
-	ADC_DMA_CON();
-	ADC_INIT_CON();
-	alignmentADC();
-	
-	while(2012)
-	{
-		Delayms(50);
-				temp[0]= Sample_Modulenum();
-				Delayms(50);
-				temp[1]= Sample_Modulenum();
-				Delayms(50);
-				temp[2]=Sample_Modulenum();
-				Delayms(50);
-				temp[3]= Sample_Modulenum();
-				Delayms(50);
-				if((temp[0] == temp[1]) && (temp[0] == temp[2]) && (temp[0] == temp[3]) && (temp[0] != 0))
-				{
-				
-					MediafilterID = temp[0];
-					break;
-				}
-	}
-	
-}
+
 void ADC_GPIO_CON(void)
 {
 	/*PA0123567为模拟输入*/

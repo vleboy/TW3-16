@@ -7,7 +7,7 @@
 
   <Targets>
     <Target>
-      <TargetName>VHE-01-01-STM32</TargetName>
+      <TargetName>TW3-16</TargetName>
       <ToolsetNumber>0x4</ToolsetNumber>
       <ToolsetName>ARM-ADS</ToolsetName>
       <TargetOption>

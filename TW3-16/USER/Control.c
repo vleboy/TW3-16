@@ -37,7 +37,7 @@ void CONTROL_GPIO_CON(void)
 	GPIO_InitStructure.GPIO_Speed=GPIO_Speed_50MHz;
 	GPIO_Init(GPIOB, &GPIO_InitStructure);
 
-	LED(CLOSE);
+	//LED(CLOSE);
 	
 }
 
@@ -61,23 +61,11 @@ void ATTControl(u8 att)
 }
 void CONTROL_CON(void)
 {
-	CONTROL_GPIO_CON();
-	ATTControl(63);
 
-	if(OPEN != Config.laserSWflag)
-	{
-		OP_SW(OP_OFF);	//off
-	}
-	else
-	{
-		OP_SW(OP_ON);	//on
-	}
-
-	if (Config.AGC == flg_AGC)
-	{
-		ATTControl(10);
-	}
-
-	
-	
+    PE4304io_LE1 = LOW;
+    PE4304io_LE2 = LOW;
+   
 }
+
+	
+	

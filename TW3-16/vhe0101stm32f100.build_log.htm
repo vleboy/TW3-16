@@ -1,0 +1,206 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Project:</h2>
+E:\TW3-16\TW3-16\TW3-16.uvproj
+Project File Date:  01/06/2015
+
+<h2>Output:</h2>
+Build target 'TW3-16'
+compiling main.c...
+compiling stm32f10x_it.c...
+USER\stm32f10x_it.c(163): warning:  #550-D: variable "dat" was set but never used
+        unsigned char dat;
+USER\stm32f10x_it.c: 1 warning, 0 errors
+compiling Systick.c...
+compiling flash.c...
+compiling Control.c...
+linking...
+Program Size: Code=6324 RO-data=320 RW-data=104 ZI-data=1784  
+".\vhe0101stm32f100.axf" - 0 Error(s), 1 Warning(s).
+ng stm32f10x_flash.c...
+compiling stm32f10x_fsmc.c...
+compiling stm32f10x_gpio.c...
+compiling stm32f10x_i2c.c...
+compiling stm32f10x_iwdg.c...
+compiling stm32f10x_pwr.c...
+compiling stm32f10x_rcc.c...
+compiling stm32f10x_rtc.c...
+compiling stm32f10x_sdio.c...
+compiling stm32f10x_spi.c...
+compiling stm32f10x_tim.c...
+compiling stm32f10x_usart.c...
+compiling stm32f10x_wwdg.c...
+compiling main.c...
+USER\main.c(88): warning:  #223-D: function "CONTROL_CON" declared implicitly
+        CONTROL_CON();
+USER\main.c: 1 warning, 0 errors
+compiling stm32f10x_it.c...
+USER\stm32f10x_it.c(163): warning:  #550-D: variable "dat" was set but never used
+        unsigned char dat;
+USER\stm32f10x_it.c: 1 warning, 0 errors
+compiling Systick.c...
+compiling flash.c...
+compiling Control.c...
+USER\Control.c(6): error:  #20: identifier "GPIO_InitStructure" is undefined
+        GPIO_InitStructure.GPIO_Pin = GPIO_Pin_8;
+USER\Control.c(40): warning:  #223-D: function "LED" declared implicitly
+        LED(CLOSE);
+USER\Control.c(67): error:  #20: identifier "Config" is undefined
+        if(OPEN != Config.laserSWflag)
+USER\Control.c(76): error:  #20: identifier "flg_AGC" is undefined
+        if (Config.AGC == flg_AGC)
+USER\Control.c: 1 warning, 3 errors
+".\vhe0101stm32f100.axf" - 3 Error(s), 3 Warning(s).
+Target not created
+      FLASH_RR(SAVE_FLASH_ADDRESS,(sizeof( Config ) / sizeof( short )),(unsigned short *)&Config.saveflag);
+USER\flash.c(34): warning:  #223-D: function "Delayms" declared implicitly
+        Delayms(50);
+USER\flash.c(35): error:  #20: identifier "Dataflash" is undefined
+        FLASH_RR(SAVE_FLASH_ADDRESS+10,(sizeof( Dataflash ) / sizeof( short )),(unsigned short *)&Dataflash.ID);
+USER\flash.c(69): error:  #159: declaration is incompatible with previous "FLASH_RR" (declared at line 33)
+  void FLASH_RR(u32 Add,u32 len ,u16 *data)
+USER\flash.c: 4 warnings, 4 errors
+".\vhe0101stm32f100.axf" - 4 Error(s), 5 Warning(s).
+Target not created
+iteNBytes((LD_Add_start+ sizeof ( MainStructW ) / sizeof ( char ) ),(unsigned char *)&MainAscii.PartNumber[0],(sizeof(MainAscii)/sizeof(char)));
+USER\flash.c(33): warning:  #223-D: function "FLASH_RR" declared implicitly
+        FLASH_RR(SAVE_FLASH_ADDRESS,(sizeof( Config ) / sizeof( short )),(unsigned short *)&Config.saveflag);
+USER\flash.c(33): error:  #20: identifier "Config" is undefined
+        FLASH_RR(SAVE_FLASH_ADDRESS,(sizeof( Config ) / sizeof( short )),(unsigned short *)&Config.saveflag);
+USER\flash.c(34): warning:  #223-D: function "Delayms" declared implicitly
+        Delayms(50);
+USER\flash.c(35): error:  #20: identifier "Dataflash" is undefined
+        FLASH_RR(SAVE_FLASH_ADDRESS+10,(sizeof( Dataflash ) / sizeof( short )),(unsigned short *)&Dataflash.ID);
+USER\flash.c(69): error:  #159: declaration is incompatible with previous "FLASH_RR" (declared at line 33)
+  void FLASH_RR(u32 Add,u32 len ,u16 *data)
+USER\flash.c: 4 warnings, 11 errors
+".\vhe0101stm32f100.axf" - 11 Error(s), 5 Warning(s).
+Target not created
+Add_start+ sizeof ( MainStructW ) / sizeof ( char ) ),(unsigned char *)&MainAscii.PartNumber[0],(sizeof(MainAscii)/sizeof(char)));
+USER\flash.c(33): error:  #20: identifier "Config" is undefined
+        FLASH_RR(SAVE_FLASH_ADDRESS,(sizeof( Config ) / sizeof( short )),(unsigned short *)&Config.saveflag);
+USER\flash.c(35): error:  #20: identifier "Dataflash" is undefined
+        FLASH_RR(SAVE_FLASH_ADDRESS+10,(sizeof( Dataflash ) / sizeof( short )),(unsigned short *)&Dataflash.ID);
+USER\flash.c: 2 warnings, 10 errors
+compiling Systick.c...
+compiling Control.c...
+USER\Control.c(40): warning:  #223-D: function "LED" declared implicitly
+        LED(CLOSE);
+USER\Control.c(67): error:  #20: identifier "Config" is undefined
+        if(OPEN != Config.laserSWflag)
+USER\Control.c(76): error:  #20: identifier "flg_AGC" is undefined
+        if (Config.AGC == flg_AGC)
+USER\Control.c: 1 warning, 2 errors
+compiling uart.c...
+USER\uart.c(118): error:  #136: struct "<unnamed>" has no field "proflag"
+        if(frame->proflag != 0)                                     //当前数据正在处理
+USER\uart.c(125): error:  #20: identifier "UART_RCVFLAG_HEAD1" is undefined
+                frame->rcvflag = UART_RCVFLAG_HEAD1;
+USER\uart.c(132): error:  #20: identifier "UART_RCVFLAG_HEAD1" is undefined
+                case UART_RCVFLAG_HEAD1:
+USER\uart.c(136): error:  #20: identifier "UART_RCVFLAG_ADDR" is undefined
+                                  frame->rcvflag = UART_RCVFLAG_ADDR;
+USER\uart.c(147): error:  #20: identifier "UART_RCVFLAG_ADDR" is undefined
+                case UART_RCVFLAG_ADDR:
+USER\uart.c(149): error:  #136: struct "<unnamed>" has no field "addr"
+                                frame->addr     = dat;
+USER\uart.c(151): error:  #136: struct "<unnamed>" has no field "addr"
+                                if (frame->addr != MediafilterID)
+USER\uart.c(171): error:  #20: identifier "UART_RCVFLAG_DAT" is undefined
+                                        frame->rcvflag =   UART_RCVFLAG_DAT;
+USER\uart.c(176): error:  #20: identifier "UART_RCVFLAG_CS" is undefined
+                                        frame->rcvflag =   UART_RCVFLAG_CS;
+USER\uart.c(181): error:  #20: identifier "UART_RCVFLAG_DAT" is undefined
+                case UART_RCVFLAG_DAT:
+USER\uart.c(188): error:  #20: identifier "UART_RCVFLAG_CS" is undefined
+                                        frame->rcvflag = UART_RCVFLAG_CS ;
+USER\uart.c(193): error:  #20: identifier "UART_RCVFLAG_CS" is undefined
+                case UART_RCVFLAG_CS:
+USER\uart.c(202): error:  #20: identifier "UART_RCVFLAG_REAR" is undefined
+                                        frame->rcvflag =  UART_RCVFLAG_REAR;
+USER\uart.c(206): error:  #20: identifier "UART_RCVFLAG_REAR" is undefined
+                case UART_RCVFLAG_REAR:
+USER\uart.c(210): error:  #136: struct "<unnamed>" has no field "proflag"
+                                        frame->proflag = 1;                     //数据帧已经准备好
+USER\uart.c(240): error:  #136: struct "<unnamed>" has no field "proflag"
+        if (frame->proflag != 1)                        //木有数据啊，桑心返回吧。
+USER\uart.c(255): error:  #20: identifier "TP1310" is undefined
+                                dat[6] = TP1310;
+USER\uart.c(256): error:  #20: identifier "ZXFS_MODE" is undefined
+                                dat[7] = ZXFS_MODE;
+USER\uart.c(259): error:  #20: identifier "Dataflash" is undefined
+                                dat[9] = Dataflash.OP>>8;// 读取激光器输出光功率 的AD采集值 真实值 等于 该值 X 3.3 / 256
+USER\uart.c(281): error:  #20: identifier "Config" is undefined
+                                dat[22] = Config.AGC;// 读取当前是AGC 0还是MGC 1
+USER\uart.c(314): error:  #20: identifier "Config" is undefined
+                                        if (Config.AGC != frame->dat[2])
+USER\uart.c(324): error:  #20: identifier "Config" is undefined
+                                        if (Config.AGC == 0x01)         //MGC
+USER\uart.c(328): error:  #20: identifier "Dataflash" is undefined
+                                                        if(Dataflash.MGC>=63)
+USER\uart.c(339): error:  #20: identifier "Dataflash" is undefined
+                                                        if(Dataflash.MGC==0)
+USER\uart.c(353): error:  #20: identifier "Dataflash" is undefined
+                                                        if(Dataflash.AGC>=86)
+USER\uart.c(364): error:  #20: identifier "Dataflash" is undefined
+                                                        if(Dataflash.AGC==0)
+USER\uart.c(379): error:  #20: identifier "Config" is undefined
+                                        if (frame->dat[2] != Config.laserSWflag)
+USER\uart.c(424): error:  #136: struct "<unnamed>" has no field "proflag"
+        frame->proflag = 0;                                                             // 数据处理完成
+USER\uart.c(434): error:  #20: identifier "Config" is undefined
+        FLASH_WW(SAVE_FLASH_ADDRESS,(sizeof( Config ) / sizeof( short )),(unsigned short *)&Config.saveflag);
+USER\uart.c(436): error:  #20: identifier "Dataflash" is undefined
+        FLASH_WW(SAVE_FLASH_ADDRESS+10,(sizeof( Dataflash ) / sizeof( short )),(unsigned short *)&Dataflash.ID);
+USER\uart.c: 0 warnings, 30 errors
+compiling Task.c...
+USER\Task.c(113): error:  #20: identifier "Config" is undefined
+        if (Config.AGC == flg_AGC)                                       //agc
+USER\Task.c(113): error:  #20: identifier "flg_AGC" is undefined
+        if (Config.AGC == flg_AGC)                                       //agc
+USER\Task.c(115): error:  #20: identifier "ADC_OP" is undefined
+                RF = ADC_RUN(ADC_OP);//ADC_Data[0];
+USER\Task.c(125): error:  #20: identifier "Dataflash" is undefined
+                        if (Dataflash.AGC > 86 )
+USER\Task.c(137): error:  #20: identifier "flg_MGC" is undefined
+                        if ( AGColdflg == flg_MGC)      //上次是MGC状态，不比较直接进入AGC状态
+USER\Task.c(181): error:  #20: identifier "Dataflash" is undefined
+                Att = Dataflash.MGC;
+USER\Task.c(182): error:  #20: identifier "flg_MGC" is undefined
+                AGColdflg = flg_MGC;
+USER\Task.c(206): error:  #20: identifier "Config" is undefined
+        if ( Config.laserSWflag == OPEN)
+USER\Task.c(208): error:  #20: identifier "ADC_OP" is undefined
+                if (ADC_RUN(ADC_OP) < LASER_OP_LOW)     //OP
+USER\Task.c(208): error:  #20: identifier "LASER_OP_LOW" is undefined
+                if (ADC_RUN(ADC_OP) < LASER_OP_LOW)     //OP
+USER\Task.c(225): error:  #20: identifier "ADC_IB" is undefined
+                if ((ADC_RUN(ADC_IB) < LASER_IA_LOW) || (ADC_RUN(ADC_IB) > LASER_IA_HIGH))//IB
+USER\Task.c(225): error:  #20: identifier "LASER_IA_LOW" is undefined
+                if ((ADC_RUN(ADC_IB) < LASER_IA_LOW) || (ADC_RUN(ADC_IB) > LASER_IA_HIGH))//IB
+USER\Task.c(225): error:  #20: identifier "LASER_IA_HIGH" is undefined
+                if ((ADC_RUN(ADC_IB) < LASER_IA_LOW) || (ADC_RUN(ADC_IB) > LASER_IA_HIGH))//IB
+USER\Task.c(240): error:  #20: identifier "ADC_TEM" is undefined
+                if ((ADC_RUN(ADC_TEM) < LASER_TEMP_LOW)||(ADC_RUN(ADC_TEM) > LASER_TEMP_HIGH))//TEMP
+USER\Task.c(240): error:  #20: identifier "LASER_TEMP_LOW" is undefined
+                if ((ADC_RUN(ADC_TEM) < LASER_TEMP_LOW)||(ADC_RUN(ADC_TEM) > LASER_TEMP_HIGH))//TEMP
+USER\Task.c(240): error:  #20: identifier "LASER_TEMP_HIGH" is undefined
+                if ((ADC_RUN(ADC_TEM) < LASER_TEMP_LOW)||(ADC_RUN(ADC_TEM) > LASER_TEMP_HIGH))//TEMP
+USER\Task.c(263): error:  #20: identifier "ADC_RF" is undefined
+        if((ADC_RUN(ADC_RF)< LASER_RF_LOW) || (ADC_RUN(ADC_RF) > LASER_RF_HIGH))
+USER\Task.c(263): error:  #20: identifier "LASER_RF_LOW" is undefined
+        if((ADC_RUN(ADC_RF)< LASER_RF_LOW) || (ADC_RUN(ADC_RF) > LASER_RF_HIGH))
+USER\Task.c(263): error:  #20: identifier "LASER_RF_HIGH" is undefined
+        if((ADC_RUN(ADC_RF)< LASER_RF_LOW) || (ADC_RUN(ADC_RF) > LASER_RF_HIGH))
+USER\Task.c(283): warning:  #223-D: function "LED" declared implicitly
+                LED(OPEN);                      //open red led
+USER\Task.c(290): warning:  #223-D: function "LED" declared implicitly
+                LED(CLOSE);
+USER\Task.c(292): error:  #20: identifier "Dataflash" is undefined
+        Dataflash.Err = alarmtemp;
+USER\Task.c: 2 warnings, 20 errors
+compiling dac.c...
+".\vhe0101stm32f100.axf" - 71 Error(s), 9 Warning(s).
+Target not created

@@ -23,39 +23,38 @@
 
 #include "all.h"
 GPIO_InitTypeDef  GPIO_InitStructure; 
-ConfigStruct Config;
-DataStruct Dataflash;
+unsigned char indexmk = 0;
+MainWStruct MainStructW;
+MainRStruct MainStructR;
+AsciiStruct MainAscii;
+unsigned char PartNumber[16] = {'T','W','3','-','1','6',0x20,0x20,0x20,0x20,0x20,0x20,0x20,0x20,0x20,0x20};
+unsigned char LogicID[16] = {'T','W','3','-','1','6'};
+unsigned char VendorName[16] = {'D','O','N','Y','A','N',0x20,0x20,0x20,0x20,0x20,0x20,0x20,0x20,0x20,0x20};
+unsigned char SerialNumber[16]={0};
 /*
 
 */
 void maintask(void)
 {
 
-	if (AGC_Task_Time >= AGC_TIME_FLG)
-	{
-	
-		AGC_Task();
-		AGC_Task_Time = 0;
-		
-	}
+//			if (OtherTimeTask >= OtherTimeTaskFlg)
+//		{
+//				OtherTimeTask = 0;
+//			CheckMode();
+//		}
+//    if ( AdcTimeTask >= AdcTimeTaskFlg )
+//        {
 
-	if (ADCtask_Time >= ADC_TIME_FLG)
-	{
+//            AdcTimeTask = 0;
+//            AdcTask();
+//				}
+//		if (OPrTimeTask >= OPrAgcTaskFlg)
+//			{
+//				OPrTimeTask = 0;
+//				OPR_AGC_Task();
+//			}
 
 
-		ADCtask();
-		ADCtask_Time = 0;
-		
-	}
-
-//	if(WDT_Time >= WDT_TIME_FLG)
-//	{
-//		WDT_Time = 0;
-				
-	//	#ifdef USE_WDT
-	//	clearWDT();
-//		#endif
-//	}
 
 
 	
@@ -67,24 +66,28 @@ void maintask(void)
   */
 int main(void)
 {
-  SYSTEM_INIT();
+  System_Init();
   /* Infinite loop */
-  while (1)
-  {
-		maintask();
-		UartFramePro(&UartRcvFrame);
-  }
+TxopSwitchTo(TxB);
+IbSwitchTo(IbB);
+    while ( 1 )
+        {
+					// P01=1,P00=1;
+            maintask();
+         //   UartFramePro ( &UartRcvFrame );
+
+        }
 }
 
 
-void SYSTEM_INIT(void)
+void System_Init(void)
 {
 	RCC_CON();//≈‰÷√ ±÷”
 	SYSTICK_CON();
-//  ReadInitPara();
+  ReadInitPara();
 	CONTROL_CON();
-	UART_CON();
-	ADC_INIT();//≈‰÷√≤¢ø™∆ÙADC
+//	UART_CON();
+//	ADC_INIT();//≈‰÷√≤¢ø™∆ÙADC
 	
 	
 }

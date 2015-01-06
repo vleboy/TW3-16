@@ -134,25 +134,25 @@ void PendSV_Handler(void)
   */
 void SysTick_Handler(void)
 {
-	if (SYSTICK_TIME != 0)
-		{
-			SYSTICK_TIME--;
-		}
-		
-	if (UartTimeDelay>0)
-	{
-		UartTimeDelay--;
-	}
+//	if (SYSTICK_TIME != 0)
+//		{
+//			SYSTICK_TIME--;
+//		}
+//		
+//	if (UartTimeDelay>0)
+//	{
+//		UartTimeDelay--;
+//	}
 
-	if (AGC_Task_Time < 100)
-	{
-		AGC_Task_Time++;
-	}
+//	if (AGC_Task_Time < 100)
+//	{
+//		AGC_Task_Time++;
+//	}
 
-	if (ADCtask_Time < 300)
-	{
-		ADCtask_Time++;
-	}
+//	if (ADCtask_Time < 300)
+//	{
+//		ADCtask_Time++;
+//	}
 	
 
 		
@@ -165,7 +165,7 @@ void USART1_IRQHandler(void)
 	{  
 		/* Read one byte from the receive data register */  
 		dat = USART_ReceiveData(USART1);       
-		 UART_FrameRcv(&UartRcvFrame,dat);
+
 	} 
 
 }
